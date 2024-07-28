@@ -11,8 +11,11 @@ The dataset used for this project is the "Sentiment Analysis on Movie Reviews" d
 Data Preparation
 
 * Download the dataset from Kaggle.
-Preprocess the data to clean and format it appropriately for analysis.
-Split the data into training and testing sets.
+  
+* Preprocess the data to clean and format it appropriately for analysis.
+  
+* Split the data into training and testing sets.
+  
 Model Training:
 
 Train the TextBlob model (or another chosen sentiment analysis model) on the labeled movie reviews.
