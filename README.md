@@ -9,6 +9,7 @@ The dataset used for this project is the "Sentiment Analysis on Movie Reviews" d
 
 ## Steps Involved
 Data Preparation
+
 Download the dataset from Kaggle.
 Preprocess the data to clean and format it appropriately for analysis.
 Split the data into training and testing sets.
@@ -31,6 +32,7 @@ The analysis results, including the text, polarity, subjectivity, and sentiment 
 
 ## Usage
 To use the Sentiment Sense Flask App, follow these steps:
+
 1)Clone the repository
 
 2)Set up a virtual environment
@@ -45,8 +47,11 @@ To use the Sentiment Sense Flask App, follow these steps:
 The following dependencies are required to run the Sentiment Sense Flask App:
 
 Flask: A micro web framework for Python.
+
 TextBlob: A Python library for processing textual data.
+
 Pandas: A data manipulation and analysis library for Python.
+
 Kaggle: For downloading datasets from Kaggle.
 
 ## Conclusion
