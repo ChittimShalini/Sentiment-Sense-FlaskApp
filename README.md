@@ -8,8 +8,7 @@ Sentiment Sense is a web application designed to analyze the sentiment of movie 
 The dataset used for this project is the "Sentiment Analysis on Movie Reviews" dataset from Kaggle. This dataset includes labeled movie reviews that are used to train and validate the sentiment analysis model. The dataset was downloaded using the Kaggle API command.
 
 ## Steps Involved
-Data Preparation:
-
+Data Preparation
 Download the dataset from Kaggle.
 Preprocess the data to clean and format it appropriately for analysis.
 Split the data into training and testing sets.
@@ -33,9 +32,13 @@ The analysis results, including the text, polarity, subjectivity, and sentiment 
 ## Usage
 To use the Sentiment Sense Flask App, follow these steps:
 1)Clone the repository
+
 2)Set up a virtual environment
+
 3)Install the dependencies
+
 4)Run the Flask app
+
 5)Access the Application
 
 ## Dependencies
