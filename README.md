@@ -10,7 +10,7 @@ The dataset used for this project is the "Sentiment Analysis on Movie Reviews" d
 ## Steps Involved
 Data Preparation
 
-Download the dataset from Kaggle.
+* Download the dataset from Kaggle.
 Preprocess the data to clean and format it appropriately for analysis.
 Split the data into training and testing sets.
 Model Training:
