@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Sense</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="header">
+        <h1>Sentiment Sense</h1>
+    </div>
+    <div class="container">
+        <h1>Analyze Your Text</h1>
+        <form action="/analyze" method="post">
+            <div class="form-group">
+                <label for="text">Enter text to analyze:</label>
+                <textarea id="text" name="text" rows="4" required></textarea>
+            </div>
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+    {% if result %}
+    <div class="container result-container">
+        <h2>Analysis Result:</h2>
+        <p><strong>Text:</strong> {{ text }}</p>
+        <p><strong>Polarity:</strong> {{ polarity }}</p>
+        <p><strong>Subjectivity:</strong> {{ subjectivity }}</p>
+        <div class="sentiment-box">
+            {{ sentiment }}
+        </div>
+    </div>
+    {% endif %}
+</body>
+</html>
